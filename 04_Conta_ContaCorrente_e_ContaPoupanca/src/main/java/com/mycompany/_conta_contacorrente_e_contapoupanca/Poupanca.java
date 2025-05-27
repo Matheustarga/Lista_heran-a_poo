@@ -8,6 +8,14 @@ package com.mycompany._conta_contacorrente_e_contapoupanca;
  *
  * @author Matheus
  */
-public class Poupanca {
+public class Poupanca extends Conta {
+    protected double rendMensal;
     
+    
+    public double getTaxa(){
+        return this.rendMensal;
+    }
+    public void setTaxa(double rendMensal){
+        this.rendMensal = rendMensal;
+    } 
 }

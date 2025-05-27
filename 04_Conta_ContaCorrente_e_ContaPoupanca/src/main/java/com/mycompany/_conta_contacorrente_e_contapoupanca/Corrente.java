@@ -8,6 +8,17 @@ package com.mycompany._conta_contacorrente_e_contapoupanca;
  *
  * @author Matheus
  */
-public class Corrente {
+public class Corrente extends Conta {
+    private double taxa;
+ 
+    public double getTaxa(){
+        return this.taxa;
+    }
+    public void setTaxa(double taxa){
+        this.taxa = taxa;
+    }    
+    
+    
+    
     
 }
