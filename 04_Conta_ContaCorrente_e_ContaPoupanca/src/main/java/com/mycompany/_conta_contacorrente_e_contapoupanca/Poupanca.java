@@ -12,10 +12,10 @@ public class Poupanca extends Conta {
     protected double rendMensal;
     
     
-    public double getTaxa(){
+    public double getRendTaxa(){
         return this.rendMensal;
     }
-    public void setTaxa(double rendMensal){
+    public void setRendTaxa(double rendMensal){
         this.rendMensal = rendMensal;
     } 
 }
